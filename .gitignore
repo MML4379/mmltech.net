@@ -1,0 +1,23 @@
+# HTML files
+*.htm
+*.html
+*.xhtml
+
+# Markup documents
+*.svg
+*.xml
+*.yaml
+*.html
+
+# Styling
+*.css
+*.map
+*.scss
+
+# Scripts
+*.js
+*.ts
+
+# Host settings
+firebase.json
+database-rules.json
