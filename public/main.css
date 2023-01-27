@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    background-color: #f3f3f3;
+    color: #262626;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.top .nav {
+	position: fixed;
+	top: 60px;
+	background-color: #262626A9;
+	width: 100%;
+	height: auto;
+	padding: 4px;
+}
+
+.nav .link-active {
+	
+}
+
+.nav .link-inactive {}
+
+.content {
+
+}
