@@ -43,18 +43,5 @@ function mmlUserStorageData(getValue, storeValue, deleteValue) {
 		localStorage.removeItem(deleteValue);
 	}
 }
-function jsonFromServerData(server) {fetch(server).then((Response) => Response.json()).then((data) => JSON.stringify());}
-const mmlMainNav = document.getElementById("sidebar");
-function openNavigation() {mmlMainNav.style.width = "25%";}
-function closeNavigation() {mmlMainNav.style.width = "0";}
-
-function loadError() {
-	// Get the snackbar DIV
-	var x = document.getElementById("snackbar");
-  
-	// Add the "show" class to DIV
-	x.className = "show";
-  
-	// After 3 seconds, remove the show class from DIV
-	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-  }
+const defaultAvatar = document.getElementById("v093rn");
+defaultAvatar.src = "plus-embed-assets/acc/noacc.png";

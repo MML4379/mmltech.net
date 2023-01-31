@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
 body {
     background-color: #f3f3f3;
     color: #262626;
@@ -9,21 +8,23 @@ body {
     user-select: none;
 }
 
-.top .nav {
-	position: fixed;
-	top: 60px;
-	background-color: #262626A9;
-	width: 100%;
-	height: auto;
-	padding: 4px;
+.nav {
+    background-color:#464646;
+    color:#f3f3f3;
+    width:100%;
+    padding:4px;
+    text-align:center;
+    height: 72px;
 }
-
-.nav .link-active {
-	
+.nav a{color:#f3f3f3;text-decoration:none;font-size:20px;}
+* {box-sizing: border-box;}
+.content{width:100%;height:auto;background-color:#f3f3f3;color:#262626;}
+.content a{color:#262626;text-decoration:none;}
+.current-slideshow {
+    position: relative;
+    margin: auto;
+    background-color: #d1d1d1;
+    padding: 8px;
+    border-radius: 25%;
 }
-
-.nav .link-inactive {}
-
-.content {
-
-}
+.current-slide {display:none;}/* HIDE-CONTENT-BY-DEFAULT */
